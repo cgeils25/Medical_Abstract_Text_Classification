@@ -24,11 +24,11 @@ Bag of words was implemented with NLTK and scikit-learn, and word embeddings wer
 
 ## The models I used
 
-For the bag of words embedding, I used singular value decomposition to perform dimensionality reduction (23101 --> 100 features). This was necessary because the full, unreduced dataset was impossible to fit even small models to. 
+For the bag of words embedding, I used **singular value decomposition** to perform dimensionality reduction (23101 --> 100 features). This was necessary because the full, unreduced dataset was impossible to fit even small models to. 
 
-For both the bag-of-words and word2vec models, I attempted classification with multiclass logistic regression (minimizing the multinomial cross-entropy loss), a linear support vector machine, and a random forest classifier. 
+For both the bag-of-words and word2vec models, I attempted classification with **multiclass logistic regression (minimizing the multinomial cross-entropy loss), a linear support vector machine, and a random forest classifier**. 
 
-Finally, I fine-tuned a [version of the bi-directional encoder representation from transformer (BERT) model which was itself fine-tuned on 3 million patient records from EHRs](https://huggingface.co/medicalai/ClinicalBERT). My hope was that because it would include medical terminology in its tokenizer vocabulary, it would perform better on medical text classification.
+Finally, I fine-tuned a version of the **bi-directional encoder representation from transformer (BERT)** which was itself [fine-tuned on 3 million patient records from EHRs](https://huggingface.co/medicalai/ClinicalBERT). My hope was that because it would include medical terminology in its tokenizer vocabulary, it would perform better on medical text classification.
 
 ## Where to find my work
 
