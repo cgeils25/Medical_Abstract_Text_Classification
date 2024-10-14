@@ -30,6 +30,10 @@ For both the bag-of-words and word2vec models, I attempted classification with m
 
 Finally, I fine-tuned a [version of the bi-directional encoder representation from transformer (BERT) model which was itself fine-tuned on 3 million patient records from EHRs](https://huggingface.co/medicalai/ClinicalBERT). My hope was that because it would include medical terminology in its tokenizer vocabulary, it would perform better on medical text classification.
 
+## Where to find my work
+
+All of the models except for the transformer are in `abstract_classification_nlp_asortment.ipynb`, and the transformer is in `abstract_classification_bert.ipynb`.
+
 ## Final results
 
 As you can see below, the best accuracy was achieved for the fine-tuned clincial BERT:
