@@ -1,6 +1,4 @@
-# A Bunch of Really Bad Natural Language Processing (NLP) Models for Text Classification
-
-Oh boy, I sure do hope this isn't the best I ever get at NLP :satisfied:
+# A Bunch of Natural Language Processing (NLP) Models for Text Classification
 
 In this repo, I've included my work to try and classify abstracts from articles in medical journals. The dataset comes from [this paper](https://dl.acm.org/doi/10.1145/3582768.3582795). As a side note, although the paper was investigating unsupervised (no label provided to the model) techniques, I performed supervised classification.
 
